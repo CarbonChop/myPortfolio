@@ -1,0 +1,68 @@
+@font-face {
+    font-family: CustomType; 
+    src: url(assets/Beiruti-VariableFont_wght.ttf) format(truetype); 
+    font-weight: normal;
+    font-style: normal;
+  }
+body {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    font-family: CustomType;
+}
+nav ul{
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    border-radius: 8px;
+}
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    padding: 5px;
+}
+nav li a {
+    text-decoration: none;
+    color: #59121A;
+}
+nav li a:hover {
+    color: #3D5467;
+    font-weight: bold;
+}
+.currentPage {
+    background-color: #3D5467;
+    color: #F1EDEE;
+    padding: 5px;
+    border-radius: 8px;
+}
+.headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 20%;
+    height: auto;
+}
+.summary {
+    display: flex;
+    margin: 3%;
+    font-size: 25px;
+}
+.summaryText {
+    padding-top: 30px;
+}
+.summaryText p:nth-child(1){
+    color: #2A3141;
+}.summaryText p:nth-child(2), .summaryText p:nth-child(3) {
+    color: #592203;
+}
+.skillSummary{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}.skillSummary img {
+    height: 100px;
+    width: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
